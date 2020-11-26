@@ -65,7 +65,7 @@
     <div className="w-form">
       <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" redirect="/results" data-redirect="/results" method="post">
         <div className="af-class-contact-form-grid-2">
-          <div id="w-node-6fdc3f15812c-5cb757be"><label htmlFor="Message" id="contact-message" className="af-class-field-label"><strong>Text Analysis</strong></label><textarea-af-sock-name data-name="Message" maxLength={5000} id="Message" name="Message" required placeholder=" Enter your text here. . ." className="af-class-textarea-2 w-input" /></div>
+          <div id="w-node-6fdc3f15812c-5cb757be"><label htmlFor="Message" id="contact-message" className="af-class-field-label"><strong>Text Analysis</strong></label></div><input-af-sock-name type="text" className="af-class-text-field-3 w-node-43a7f053ed30-5cb757be w-input" maxLength={256} name="name" data-name="name" placeholder="Enter your text here. . . " id="name" required />
         </div>{map(proxies['submit'], props => <input type="submit" value="Submit" data-wait="Please wait..." {...{...props, className: `af-class-submit-button-2 w-button ${props.className || ''}`}}>{props.children}</input>)}
       </form>
       <div className="w-form-done">
