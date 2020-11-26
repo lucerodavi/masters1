@@ -1139,6 +1139,12 @@
   text-transform: capitalize;
 }
 
+.af-view .af-class-text-field-3 {
+  padding-right: 37px;
+  padding-bottom: 140px;
+  padding-left: 0px;
+}
+
 @media screen and (max-width: 991px) {
   .af-view .af-class-section.af-class-cc-cta {
     padding-right: 0px;
@@ -1487,6 +1493,17 @@
 }
 
 .af-view #w-node-6fdc3f15812c-5cb757be {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+.af-view #name.w-node-43a7f053ed30-5cb757be {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
