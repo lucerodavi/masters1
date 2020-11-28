@@ -1,7 +1,9 @@
 /* eslint-disable */
 
     import React from 'react'
-      import { createScope, map, transformProxies } from './helpers'
+    import axios from 'axios'
+    import { CONFIG } from '../Constants';
+    import { createScope, map, transformProxies } from './helpers'
 
       const scripts = [
 
@@ -43,15 +45,16 @@
             })
           })
         }
+      
+         
+          
+
 
         render() {
           const proxies = Controller !== ContactFormView ? transformProxies(this.props.children) : {
             'name': [],
             'submit': [],
-          }
-
-
-        
+          }    
         
             return (
               <span>
@@ -68,29 +71,31 @@
         {proxies['name'] && <input type="text" className="__af-w-input" maxLength={256} name="name" data-name="Name" placeholder="Enter your text . . ." id="name" {...proxies['name']}>{proxies['name'].children}</input>}
         {proxies['submit'] && <input type="submit" value="Submit" data-wait="Please wait..." className="__af-button __af-w-button" {...proxies['submit']}>{proxies['submit'].children}</input>}</form>
         
-        {/* <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" redirect="/results" data-redirect="/results">
-<div className="af-class-contact-form-grid-2">
-<div id="w-node-6fdc3f15812c-5cb757be"><label htmlFor="Message" id="contact-message" className="af-class-field-label"><strong>Text Analysis</strong></label> 
-{proxies['name'] && <input type="text" className="af-class-text-field-3 w-node-43a7f053ed30-5cb757be w-input" maxLength={256} name="name" data-name="name" placeholder="Enter your text here. . ." id="name"  {...proxies['name']}>{proxies['name'].children}  </input>} 
-</div>
-</div>
-{proxies['submit'] && <input type="submit" value="Submit" data-wait="Please wait..." className="__af-button __af-w-button" {...proxies['submit']}>{proxies['submit'].children}</input>}
- </form> */}
+         {/* { <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" redirect="/results" data-redirect="/results">
+ <div className="af-class-contact-form-grid-2">
+ <div id="w-node-6fdc3f15812c-5cb757be"><label htmlFor="Message" id="contact-message" className="af-class-field-label"><strong>Text Analysis</strong></label> 
+ {proxies['name'] && <input type="text" className="af-class-text-field-3 w-node-43a7f053ed30-5cb757be w-input" maxLength={256} name="name" data-name="name" placeholder="Enter your text here. . ." id="name"  {...proxies['name']}>{proxies['name'].children}  </input>} 
+ </div>
+ </div>
+ {proxies['submit'] && <input type="submit" value="Submit" data-wait="Please wait..." className="__af-button __af-w-button" {...proxies['submit']}>{proxies['submit'].children}</input>}
+  </form> } */}
       
-        {/* <div className="__af-w-form-done">
-          <div>Thank you! Your submission has been received!</div>
+         {/* { <div className="__af-w-form-done">
+       <div>Thank you! Your submission has been received!</div>
         </div>
-        <div className="__af-w-form-fail">
+         <div className="__af-w-form-fail">
           <div>Oops! Something went wrong while submitting the form.</div>
-            </div>  This needs to be formated a bit better */}
-  </div>
-</div>
+             </div>  This needs to be formated a bit better } */}
+       
+       
+   </div>
+ </div>
+   </span>
   </span>
-          </span>
 
            
-          )
-        }}
+
+  ) }}
       
 
       export default ContactFormView
