@@ -3,7 +3,7 @@ import ResultsView from '../views/ResultsView'
 
 export default (props) => (
   <ResultsView>
-    <message> Hi there! {props.location.state.name} </message>
+    <message> Hello world {props.location.state.name}</message>
   </ResultsView>
 )
-//{props.location.state.article}
+//{props.location.state.name}
