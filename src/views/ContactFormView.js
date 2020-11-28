@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-    ==>import React from 'react'
+    import React from 'react'
       import { createScope, map, transformProxies } from './helpers'
 
       const scripts = [
@@ -50,38 +50,40 @@
             'submit': [],
           }
 
-          return (
-            <span>
-              <style dangerouslySetInnerHTML={{ __html: `
-                @import url(/css/normalize.css);
-                @import url(/css/webflow.css);
-                @import url(/css/deepfakes.webflow.css);
-              ` }} />
-              ==><span className="af-view">
-  <div className="w-container">
-    <h2><strong>Search accuracy by Text Analysis</strong></h2>
-    <p>Copy the text from any article you would like to compare to our Golden Sources and click on the Submit Button</p>
-    <div id="formInstructions" className="af-class-small-text"><em className="af-class-italic-text">Fields marked with an asterisk (*) are required.</em></div>
-    <div className="w-form">
-      <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" redirect="/results" data-redirect="/results" method="post">
-        <div className="af-class-contact-form-grid-2">
-          <div id="w-node-6fdc3f15812c-5cb757be"><label htmlFor="Message" id="contact-message" className="af-class-field-label"><strong>Text Analysis</strong></label></div><input-af-sock-name type="text" className="af-class-text-field-3 w-node-43a7f053ed30-5cb757be w-input" maxLength={256} name="name" data-name="name" placeholder="Enter your text here. . . " id="name" required />
-        </div>{map(proxies['submit'], props => <input type="submit" value="Submit" data-wait="Please wait..." {...{...props, className: `af-class-submit-button-2 w-button ${props.className || ''}`}}>{props.children}</input>)}
-      </form>
-      <div className="w-form-done">
-        <div>Thank you! Your submission has been received!</div>
-      </div>
-      <div className="w-form-fail">
-        <div>Oops! Something went wrong while analyzing your text, Please try again later.</div>
-      </div>
+
+        
+          
+            return (
+              <span>
+                <style dangerouslySetInnerHTML={{ __html: `
+                  @import url(/css/normalize.css);
+                  @import url(/css/webflow.css);
+                  @import url(/css/deepfakes.webflow.css);
+                ` }} />
+                <span className="af-view">
+                <div className="__af-div-block">
+      <h5 className="__af-heading-7">Copy the text from any article you would like to compare to our Golden Sources and click on the Submit Button</h5>
+      <div className="__af-w-form">
+        <form id="email-form" name="email-form" data-name="Email Form" data-redirect="/thank-you" redirect="/thank-you"><label htmlFor="name" className="__af-field-label">Text Analysis:</label>
+        {proxies['name'] && <input type="text" className="__af-w-input" maxLength={256} name="name" data-name="Name" placeholder="Enter your text . . ." id="name" {...proxies['name']}>{proxies['name'].children}</input>}
+        {proxies['submit'] && <input type="submit" value="Submit" data-wait="Please wait..." className="__af-button __af-w-button" {...proxies['submit']}>{proxies['submit'].children}</input>}</form>
+        
+        <div className="__af-w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div className="__af-w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
     </div>
   </div>
-</span><==
-            </span>
-          )
-        }
-      }
+</div>
+  </span>
+          </span>
 
-      export default ContactFormView<==
+           
+          )
+        }}
+      
+
+      export default ContactFormView
 
     /* eslint-enable */

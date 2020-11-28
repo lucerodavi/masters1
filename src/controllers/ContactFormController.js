@@ -21,7 +21,7 @@ class ContactFormController extends React.Component {
 
   submit = () => {
     this.props.history.push('/results', {
-      name: this.state.name
+     // name: this.state.name
     })
   }
 }

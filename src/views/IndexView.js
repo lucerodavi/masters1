@@ -80,7 +80,8 @@ class IndexView extends React.Component {
             <div className="af-class-container-4 w-container"><img src="images/Deep-Fakes_1.png" loading="lazy" alt className="af-class-image-2" /></div>
             <div className="af-class-section" />
             <section id="contact-form" className="af-class-contact-form-2">
-              <ContactFormView.Controller-af-sock-contact-form />
+            {proxies['contact-form'] && <ContactFormView.Controller {...proxies['contact-form']}>{proxies['contact-form'].children}</ContactFormView.Controller>}
+
             </section>
             <footer id="footer" className="af-class-footer">
               <div className="w-container">
