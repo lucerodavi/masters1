@@ -202,7 +202,7 @@
 .af-view .af-class-button {
   padding: 12px 25px;
   border-radius: 0px;
-  background-color: #1a1b1f;
+  background-color: #000000;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   color: #fff;
@@ -1100,7 +1100,7 @@
 .af-view .af-class-submit-button {
   margin-top: 25px;
   padding-top: 14px;
-  background-color: #070707;
+  background-color: #0f0f0f;
 }
 
 .af-view .af-class-text-field-2 {
@@ -1123,7 +1123,7 @@
 }
 
 .af-view .af-class-submit-button-2 {
-  background-color: #000;
+  background-color: rgb(201, 47, 47);
   color: #fff;
 }
 
