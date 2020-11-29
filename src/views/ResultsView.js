@@ -11,6 +11,7 @@ const scripts = [
 let Controller
 
 class ResultsView extends React.Component {
+
   static get Controller() {
     if (Controller) return Controller
 
@@ -30,6 +31,7 @@ class ResultsView extends React.Component {
       throw e
     }
   }
+
 
   componentDidMount() {
     scripts.concat(Promise.resolve()).reduce((loaded, loading) => {
