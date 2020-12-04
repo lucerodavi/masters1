@@ -32,19 +32,19 @@ class IndexView extends React.Component {
     }
   }
 // commented out on  friday 27 at 5pm beacuse i was getting a werid error 
-  // componentDidMount() {
-  //   scripts.concat(Promise.resolve()).reduce((loaded, loading) => {
-  //     return loaded.then((script) => {
-  //       new Function(`
-  //         with (this) {
-  //           eval(arguments[0])
-  //         }
-  //       `).call(window, script)
+  componentDidMount() {
+    // scripts.concat(Promise.resolve()).reduce((loaded, loading) => {
+    //   return loaded.then((script) => {
+    //     new Function(`
+    //       with (this) {
+    //         eval(arguments[0])
+    //       }
+    //     `).call(window, script)
 
-  //       return loading
-  //     })
-  //   })
-  // }
+    //     return loading
+    //   })
+    // })
+  }
 
   render() {
     const proxies = Controller !== IndexView ? transformProxies(this.props.children) : {
