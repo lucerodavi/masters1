@@ -71,7 +71,7 @@ class CommunityView extends React.Component {
                   </nav>
                   <div className="af-class-menu-button w-nav-button"><img src="images/menu-icon_1menu-icon.png" width={22} alt className="af-class-menu-icon" /></div>
                 </div>
-                <a href="mailto:mail@business.com?subject=You've%20got%20mail!" className="af-class-button af-class-cc-contact-us w-inline-block">
+                <a href="mailto:lucerodavi96@gmail.com?subject=DeepFakes Inquiry!" className="af-class-button af-class-cc-contact-us w-inline-block">
                   <div>join us</div>
                 </a>
               </div>
@@ -94,35 +94,35 @@ class CommunityView extends React.Component {
                     <div className="af-class-team-pic"><img src="images/IMG_2036.jpg" loading="lazy" srcSet="images/IMG_2036-p-500.jpeg 500w, images/IMG_2036-p-800.jpeg 800w, images/IMG_2036-p-1080.jpeg 1080w, images/IMG_2036.jpg 1242w" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, 94vw" alt className="af-class-image-6" /></div>
                     <div className="af-class-team-member-title-wrap">
                       <div className="af-class-team-member-name">Lucero Davalos</div>
-                      <div className="af-class-paragraph-light">*</div>
+                      <div className="af-class-paragraph-light"></div>
                     </div>
                   </div>
                   <div id="w-node-6bd9fce98043-e3b757c9">
                     <div className="af-class-team-pic"><img src="images/IMG_2038.jpg" loading="lazy" srcSet="images/IMG_2038-p-500.jpeg 500w, images/IMG_2038-p-800.jpeg 800w, images/IMG_2038-p-1080.jpeg 1080w, images/IMG_2038.jpg 1242w" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, 94vw" alt className="af-class-image-5" /></div>
                     <div className="af-class-team-member-title-wrap">
                       <div className="af-class-team-member-name">Konstantin Pavlenko</div>
-                      <div className="af-class-paragraph-light">*</div>
+                      <div className="af-class-paragraph-light"></div>
                     </div>
                   </div>
                   <div id="w-node-6bd9fce9804a-e3b757c9">
                     <div className="af-class-team-pic"><img src="images/IMG_2037.jpg" loading="lazy" srcSet="images/IMG_2037-p-500.jpeg 500w, images/IMG_2037-p-800.jpeg 800w, images/IMG_2037-p-1080.jpeg 1080w, images/IMG_2037.jpg 1242w" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, 94vw" alt className="af-class-image-4" /></div>
                     <div className="af-class-team-member-title-wrap">
                       <div className="af-class-team-member-name">William Forsythe</div>
-                      <div className="af-class-paragraph-light">*</div>
+                      <div className="af-class-paragraph-light"></div>
                     </div>
                   </div>
                   <div id="w-node-6bd9fce98051-e3b757c9">
                     <div className="af-class-team-pic"><img src="images/IMG_2039.jpg" loading="lazy" srcSet="images/IMG_2039-p-500.jpeg 500w, images/IMG_2039-p-800.jpeg 800w, images/IMG_2039-p-1080.jpeg 1080w, images/IMG_2039.jpg 1242w" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, 94vw" alt className="af-class-image-8" /></div>
                     <div className="af-class-team-member-title-wrap">
                       <div className="af-class-team-member-name">Dylan Sun</div>
-                      <div className="af-class-paragraph-light">*</div>
+                      <div className="af-class-paragraph-light"></div>
                     </div>
                   </div>
                   <div id="w-node-6bd9fce98058-e3b757c9">
                     <div className="af-class-team-pic"><img src="images/IMG_2040.jpg" loading="lazy" srcSet="images/IMG_2040-p-500.jpeg 500w, images/IMG_2040-p-800.jpeg 800w, images/IMG_2040-p-1080.jpeg 1080w, images/IMG_2040.jpg 1242w" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, 94vw" alt className="af-class-image-7" /></div>
                     <div className="af-class-team-member-title-wrap">
                       <div className="af-class-team-member-name">Tommy Yao</div>
-                      <div className="af-class-paragraph-light">*</div>
+                      <div className="af-class-paragraph-light"></div>
                     </div>
                   </div>
                   <div id="w-node-6bd9fce9805f-e3b757c9">

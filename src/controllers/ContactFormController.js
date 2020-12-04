@@ -45,12 +45,14 @@ submit = async e => {
   const data = await getData.json();
 
   this.setState({
-    results: data.body.confidence_score
+    confidence_score: data.body.confidence_score,
+    results: data.body.text_determination
   });
   
-  console.log(this.state.results); 
+  console.log(this.state.confidence_score); 
   {
     this.props.history.push('/results',{
+      confidence_score: this.state.confidence_score,
       results: this.state.results
      })}
 } 

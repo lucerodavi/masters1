@@ -12,10 +12,11 @@
 
 .af-view {
   font-family: Montserrat, sans-serif;
-  color: #1a1b1f;
+  color: #15161a;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
+  
 }
 
 .af-view h1 {
@@ -52,10 +53,11 @@
 
 .af-view h5 {
   margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 35px;
+  font-size: 30px;
   line-height: 34px;
   font-weight: 500;
+  padding-left: 400px;
 }
 
 .af-view h6 {
@@ -102,8 +104,9 @@
 }
 
 .af-view label {
+  padding-left: 300px;
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 20px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -200,12 +203,13 @@
 }
 
 .af-view .af-class-button {
+  margin-left: 300px;
   padding: 12px 25px;
   border-radius: 0px;
-  background-color: #000000;
+  background-color: #635e5e;
   -webkit-transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
   transition: background-color 400ms ease, opacity 400ms ease, color 400ms ease;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
@@ -219,7 +223,7 @@
 }
 
 .af-view .af-class-button:active {
-  background-color: #43464d;
+  background-color: #0e45c4;
 }
 
 .af-view .af-class-button.af-class-cc-jumbo-button {
@@ -626,7 +630,7 @@
 }
 
 .af-view .af-class-contact-form-wrap {
-  padding: 45px 50px 50px;
+  padding: 45x 50px 50px;
   border-style: solid;
   border-width: 1px;
   border-color: #eee;
@@ -646,6 +650,7 @@
   grid-template-columns: 2.5fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  
 }
 
 .af-view .af-class-details-wrap {
@@ -693,6 +698,7 @@
 
 .af-view .af-class-contact-form-heading-wrap {
   margin-bottom: 40px;
+  
 }
 
 .af-view .af-class-contact-heading {
@@ -1027,6 +1033,7 @@
 .af-view .af-class-contact-form-2 {
   padding-top: 100px;
   padding-bottom: 100px;
+  
 }
 
 .af-view .af-class-contact-form-grid-2 {
@@ -1049,8 +1056,9 @@
   padding-bottom: 97px;
 }
 
-.af-view .af-class-div-block-2 {
+.af-view .af-class-div-block {
   margin-bottom: -200px;
+  
 }
 
 .af-view .af-class-image-3 {
@@ -1087,10 +1095,12 @@
 }
 
 .af-view .af-class-button-2 {
-  padding: 33px 190px 130px 78px;
+  padding: 60px 55px 60px 55px;
   border-radius: 19px;
   background-color: #000;
   color: #fff;
+  text-align: center;
+  vertical-align: middle;
   font-size: 30px;
   line-height: 70px;
   background-clip: border-box;
@@ -1111,6 +1121,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: #fff;
+  
 }
 
 .af-view .af-class-section-2 {
@@ -1142,7 +1153,8 @@
 .af-view .af-class-text-field-3 {
   padding-right: 37px;
   padding-bottom: 140px;
-  padding-left: 0px;
+  padding-left: 10px;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1725,4 +1737,6 @@
     -ms-grid-row-span: 1;
     grid-row-end: 7;
   }
+
+  
 }

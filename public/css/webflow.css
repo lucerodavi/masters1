@@ -52,7 +52,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333;
+  color: rgb(206, 206, 206);
 }
 img {
   max-width: 100%;
@@ -97,6 +97,7 @@ html.w-mod-touch * {
 }
 input.w-button {
   -webkit-appearance: button;
+  
 }
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
@@ -301,9 +302,11 @@ input[type="reset"] {
   border: 0;
   cursor: pointer;
   -webkit-appearance: button;
+  
 }
 .w-form {
   margin: 0 0 15px;
+  
 }
 .w-form-done {
   display: none;
@@ -325,16 +328,18 @@ label {
 .w-input,
 .w-select {
   display: block;
-  width: 100%;
+  margin-left: 300px;
+  width: 70%;
   height: 38px;
-  padding: 8px 12px;
+  padding: 10px 50px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.428571429;
   color: #333333;
   vertical-align: middle;
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
+  background-color: #f0f0f0;
+  border: 1px solid #797979;
+  
 }
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {

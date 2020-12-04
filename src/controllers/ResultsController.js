@@ -43,7 +43,7 @@ import { CONFIG } from '../Constants';
 export default (props) => (
   <ResultsView>
    
-   <message> Approximately {props.location.state.results} accurate </message>
+   <message> This text is {props.location.state.results} with {props.location.state.confidence_score} confidence </message>
     
   </ResultsView>
 )

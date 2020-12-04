@@ -71,7 +71,7 @@ class ApiView extends React.Component {
                   </nav>
                   <div className="af-class-menu-button w-nav-button"><img src="images/menu-icon_1menu-icon.png" width={22} alt className="af-class-menu-icon" /></div>
                 </div>
-                <a href="mailto:mail@business.com?subject=You've%20got%20mail!" className="af-class-button af-class-cc-contact-us w-inline-block">
+                <a href="mailto:lucerodavi96@gmail.com?subject=DeepFakes Inquiry!" className="af-class-button af-class-cc-contact-us w-inline-block">
                   <div>join us</div>
                 </a>
               </div>
@@ -89,7 +89,7 @@ class ApiView extends React.Component {
                   <div id="w-node-509be705858e-9bb757c8" className="af-class-contact-form-wrap">
                     <div className="af-class-contact-form-heading-wrap">
                       <h2 className="af-class-contact-heading">API Docs</h2>
-                      <div className="af-class-paragraph-light">Coming Soon . . .<br /><br />We plan to to have a couple of Open API for our community members to use </div>
+                      <div className="af-class-paragraph-light">Open API Coming Soon . . .<br /><br /></div>
                     </div>
                   </div>
                 </div>

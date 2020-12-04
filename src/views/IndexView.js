@@ -72,7 +72,7 @@ class IndexView extends React.Component {
                   </nav>
                   <div className="af-class-menu-button w-nav-button"><img src="images/menu-icon_1menu-icon.png" width={22} alt className="af-class-menu-icon" /></div>
                 </div>
-                <a href="mailto:mail@business.com?subject=You've%20got%20mail!" className="af-class-button af-class-cc-contact-us w-inline-block">
+                <a href="mailto:lucerodavi96@gmail.com?subject=DeepFakes Inquiry!" className="af-class-button af-class-cc-contact-us w-inline-block">
                   <div>join us</div>
                 </a>
               </div>
@@ -88,8 +88,8 @@ class IndexView extends React.Component {
                 <div className="af-class-footer-flex-container">
                   <a href="#" className="af-class-footer-logo-link w-inline-block"><img src="images/Deep-Fakes_1.png" alt className="af-class-footer-image" /></a>
                   <div>
-                    <h2 className="af-class-footer-heading">Heading Label</h2>
-                    <ul role="list" className="w-list-unstyled">
+                    <h2 className="af-class-footer-heading">Coming Soon</h2>
+                    {/* <ul role="list" className="w-list-unstyled">
                       <li>
                         <a href="#" className="af-class-footer-link">Text Link</a>
                       </li>
@@ -105,23 +105,23 @@ class IndexView extends React.Component {
                       <li>
                         <a href="#" className="af-class-footer-link">Text Link</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                   <div>
-                    <h2 className="af-class-footer-heading">Heading Label</h2>
-                    <ul role="list" className="w-list-unstyled">
+                    <h2 className="af-class-footer-heading">Coming Soon</h2>
+                    {/* <ul role="list" className="w-list-unstyled">
                       <li>
                         <a href="#" className="af-class-footer-link">Text Link</a>
                       </li>
                       <li>
                         <a href="#" className="af-class-footer-link">Text Link</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                   <div>
-                    <h2 className="af-class-footer-heading">Heading Label</h2>
+                    <h2 className="af-class-footer-heading">Coming Soon</h2>
                     <ul role="list" className="w-list-unstyled">
-                      <li>
+                      {/* <li>
                         <a href="#" className="af-class-footer-link">Text Link</a>
                       </li>
                       <li>
@@ -129,11 +129,11 @@ class IndexView extends React.Component {
                       </li>
                       <li>
                         <a href="#" className="af-class-footer-link">Text Link</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>
-                <div>Copyright © 2020 My Company. All rights reserved.</div>
+                <div>Copyright © 2020 DeepFakes. All rights reserved.</div>
               </div>
             </footer>
             {/* [if lte IE 9]><![endif] */}

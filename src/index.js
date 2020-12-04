@@ -10,14 +10,20 @@ import IndexView from './views/IndexView'
 import ResultsView from './views/ResultsView'
 import IndexController from './controllers/IndexController'
 import ResultsController from './controllers/ResultsController'
+import AboutView from './views/AboutView'
+import ApiView from './views/ApiView'
+import CommunityView from './views/CommunityView'
 
 
 
 ReactDOM.render(
    <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={IndexController} />
+      <Route exact path="/index.html" component={IndexController} />
       <Route exact path="/results" component={ResultsController} />
+      <Route exact path='/about.html' component={AboutView} />
+      <Route exact path='/community.html' component={CommunityView} />
+      <Route exact path='/api.html' component={ApiView} />
     </Switch>
    </BrowserRouter>
   ,document.getElementById('root')
