@@ -104,11 +104,11 @@
                 ` }} />
                 <span className="af-view">
                 <div className="__af-div-block">
-      <h5 className="__af-heading-7">Copy the text from any article you would like to compare to our Golden Sources and click on the Submit Button</h5>
+      <h5 className="__af-heading-7">Input the text from any article to compute an accuracy score</h5>
       <div className="__af-w-form">
-      <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" data-redirect="/results" redirect="/results"><label htmlFor="name" className="__af-field-label">Text Analysis:</label>
-        {proxies['name'] && <input type="text" className="af-class-text-field-3 w-node-43a7f053ed30-5cb757be w-input" maxLength={500} name="name" data-name="name" placeholder="Enter your text . . ." id="name" {...proxies['name']}>{proxies['name'].children}</input>}
-        {proxies['submit'] && <input type="submit" value="Submit" data-wait="Please wait..." className="__af-button __af-w-button" {...proxies['submit']}>{proxies['submit'].children}</input>}</form>
+      <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" data-redirect="/results" redirect="/results" ><label htmlFor="name" className="__af-field-label">Text Analysis:</label>
+        {proxies['name'] && <input type="text" className="af-class-text-field-3 w-node-43a7f053ed30-5cb757be w-input" maxLength={500} name="name" data-name="name" placeholder="Enter your text . . ." {...proxies['name']}>{proxies['name'].children}</input>}
+        {proxies['submit'] && <input type="submit" value="Submit" data-wait="Please wait..." className="af-class-button" {...proxies['submit']}>{proxies['submit'].children}</input>}</form>
         
          {/* { <form id="wf-form-Contact-Form" name="wf-form-Contact-Form" data-name="Contact Form" redirect="/results" data-redirect="/results">
  <div className="af-class-contact-form-grid-2">

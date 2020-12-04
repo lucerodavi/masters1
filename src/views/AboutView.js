@@ -71,7 +71,7 @@ class AboutView extends React.Component {
                   </nav>
                   <div className="af-class-menu-button w-nav-button"><img src="images/menu-icon_1menu-icon.png" width={22} alt className="af-class-menu-icon" /></div>
                 </div>
-                <a href="mailto:mail@business.com?subject=You've%20got%20mail!" className="af-class-button af-class-cc-contact-us w-inline-block">
+                <a href="mailto:lucerodavi96@gmail.com?subject=DeepFakes Inquiry!" className="af-class-button af-class-cc-contact-us w-inline-block">
                   <div>join us</div>
                 </a>
               </div>
@@ -88,7 +88,7 @@ class AboutView extends React.Component {
                 </div>
                 <div className="af-class-divider" />
                 <div className="af-class-about-story-wrap">
-                  <p className="af-class-paragraph-light"><strong>What we do<br />‍</strong><br />We collect information from reliable sources, science-based and peer-reviewed research.<br />‍<br />We have built a state of the art Machine Learning Algorithm that is able to provide you with a percentage of data accuracy.<br /><br /><strong>How it works </strong><br />‍<br />Just submit the text you would like to compare and click submit, then let our Algorithm do the work and provide you with a percentage in a matter of seconds.<br />‍<br /><strong>Why we do it<br /><br /></strong>We believe that reliable sources of information has become a real problem in this era, and misinformation can lead to many bad outcomes in peoples life. <br /><br /><br /><br />‍</p>
+                  <p className="af-class-paragraph-light"><strong>What we do<br />‍</strong><br />We collect information from reliable sources, science-based and peer-reviewed research.<br />‍<br />We have built a state of the art Machine Learning Algorithm that is able to provide you with a percentage of data accuracy.<br /><br /><strong>How it works </strong><br />‍<br />Just submit the text you would like to analyze and click submit, then let our Algorithm do the work and provide you with an accuracy percentage in a matter of seconds.<br />‍<br /><strong>Why we do it<br /><br /></strong>We believe that reliable sources of information has become a real problem in this era, and misinformation can lead to many problems. We saw an issue that doesn't currently appear to have an adequate solution, so we decided to see if we could challenge ourselves to come up with a new innovative solution. <br /><br /><br /><br />‍</p>
                 </div>
                 <div className="af-class-divider" />
               </div>
