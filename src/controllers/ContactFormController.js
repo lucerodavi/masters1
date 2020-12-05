@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ContactFormView from '../views/ContactFormView'
 import axios from 'axios'
 import { CONFIG } from '../Constants';
+import * as ReactBootStrap from 'react-bootstrap';
 
 class ContactFormController extends React.Component {
 //  state = {}
@@ -43,12 +44,14 @@ submit = async e => {
  
   const getData = await fetch(`${CONFIG.APIBaseUrl}`, settings);
   const data = await getData.json();
+  //const [loading, setLoading] = useState(false);
 
   this.setState({
     confidence_score: data.body.confidence_score,
     results: data.body.text_determination
   });
   
+ 
   console.log(this.state.confidence_score); 
   {
     this.props.history.push('/results',{
@@ -83,9 +86,8 @@ submit = async e => {
        <name onChange={this.setName} />
         <submit onClick={this.submit} />
         <results onChange={this.setResults} />
-      
-      
       </ContactFormView>
+
     )
     }}
   

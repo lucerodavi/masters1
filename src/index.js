@@ -13,6 +13,7 @@ import ResultsController from './controllers/ResultsController'
 import AboutView from './views/AboutView'
 import ApiView from './views/ApiView'
 import CommunityView from './views/CommunityView'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
